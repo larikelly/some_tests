@@ -17,5 +17,4 @@ function classificarImc(imc) {
     }
 }
 
-export const calculateImc = calcularImc;
-export const classifyImc = classificarImc;
+module.exports = { calcularImc, classificarImc };
